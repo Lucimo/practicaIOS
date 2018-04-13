@@ -13,6 +13,9 @@
 		335A6CF4207E4A04003C9647 /* practicaIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 335A6CF2207E4A04003C9647 /* practicaIOS.xcdatamodeld */; };
 		335A6CF6207E4A04003C9647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335A6CF5207E4A04003C9647 /* Assets.xcassets */; };
 		335A6CF9207E4A04003C9647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335A6CF7207E4A04003C9647 /* LaunchScreen.storyboard */; };
+		33605DCF2080F2A700E048F3 /* VCRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33605DCE2080F2A700E048F3 /* VCRegisterViewController.swift */; };
+		33605DD12080F4E200E048F3 /* VCPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33605DD02080F4E200E048F3 /* VCPrincipal.swift */; };
+		33605DD32081018900E048F3 /* TVCMiCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33605DD22081018900E048F3 /* TVCMiCelda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		335A6CF5207E4A04003C9647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		335A6CF8207E4A04003C9647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		335A6CFA207E4A04003C9647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33605DCE2080F2A700E048F3 /* VCRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRegisterViewController.swift; sourceTree = "<group>"; };
+		33605DD02080F4E200E048F3 /* VCPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPrincipal.swift; sourceTree = "<group>"; };
+		33605DD22081018900E048F3 /* TVCMiCelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCMiCelda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,10 @@
 				335A6CF5207E4A04003C9647 /* Assets.xcassets */,
 				335A6CF7207E4A04003C9647 /* LaunchScreen.storyboard */,
 				335A6CFA207E4A04003C9647 /* Info.plist */,
+				33605DD22081018900E048F3 /* TVCMiCelda.swift */,
+				33605DD02080F4E200E048F3 /* VCPrincipal.swift */,
 				335A6CF2207E4A04003C9647 /* practicaIOS.xcdatamodeld */,
+				33605DCE2080F2A700E048F3 /* VCRegisterViewController.swift */,
 			);
 			path = practicaIOS;
 			sourceTree = "<group>";
@@ -140,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				335A6CF4207E4A04003C9647 /* practicaIOS.xcdatamodeld in Sources */,
+				33605DD32081018900E048F3 /* TVCMiCelda.swift in Sources */,
 				335A6CEE207E4A04003C9647 /* ViewController.swift in Sources */,
+				33605DD12080F4E200E048F3 /* VCPrincipal.swift in Sources */,
+				33605DCF2080F2A700E048F3 /* VCRegisterViewController.swift in Sources */,
 				335A6CEC207E4A04003C9647 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
